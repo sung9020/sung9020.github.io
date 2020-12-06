@@ -1,7 +1,6 @@
 @font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-family: 'Nanum OenSonJabiDoYeBbeo';
+  src: url("/fonts/nanum_2.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -10,8 +9,8 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-family: "Nanum OenSonJabiDoYeBbeo", sans-serif;
+  font-size: 30px;
   font-weight: 300;
   line-height: 1.5;
   color: #7a7e89;
@@ -49,7 +48,7 @@ a:hover, a:focus, a:active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Nanum OenSonJabiDoYeBbeo", sans-serif;
   color: #000;
 }
 
@@ -60,7 +59,7 @@ p {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Nanum OenSonJabiDoYeBbeo", sans-serif;
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -233,8 +232,8 @@ p {
   }
 }
 #fh5co-header #fh5co-logo a {
-  font-family: "Roboto Slab", sans-serif;
-  font-size: 30px;
+  font-family: "Nanum OenSonJabiDoYeBbeo", sans-serif;
+  font-size: 40px;
   color: #fff;
 }
 @media screen and (max-width: 768px) {
@@ -263,7 +262,7 @@ p {
   display: inline;
 }
 #fh5co-header #fh5co-main-nav ul li a {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Nanum OenSonJabiDoYeBbeo", sans-serif;
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   margin-left: 30px;
@@ -292,12 +291,12 @@ p {
   line-height: 1.2;
 }
 #fh5co-header.navbar-fixed-top #fh5co-logo a {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Nanum OenSonJabiDoYeBbeo", sans-serif;
   font-size: 30px;
   color: #000;
 }
 #fh5co-header.navbar-fixed-top #fh5co-main-nav ul li a {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Nanum OenSonJabiDoYeBbeo", sans-serif;
   color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
   margin-left: 30px;
@@ -336,7 +335,7 @@ p {
 #fh5co-home .flexslider .fh5co-text h1 {
   margin: 0 0 30px 0;
   padding: 0;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Nanum OenSonJabiDoYeBbeo", sans-serif;
   font-size: 50px;
   font-weight: 400;
   color: #fff;
@@ -359,7 +358,7 @@ p {
   margin-top: 30px;
 }
 #fh5co-home .flexslider .fh5co-text .fh5co-go a {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nanum OenSonJabiDoYeBbeo", sans-serif;
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -604,7 +603,7 @@ p {
 #fh5co-testimony .flexslider .slides li blockquote p {
   font-size: 40px;
   line-height: 1.5;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Nanum OenSonJabiDoYeBbeo", sans-serif;
   color: white !important;
 }
 @media screen and (max-width: 768px) {
@@ -617,7 +616,7 @@ p {
   display: block;
   padding-top: 20px;
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Nanum OenSonJabiDoYeBbeo", sans-serif;
   font-style: normal;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -781,11 +780,11 @@ p {
 }
 
 .section-heading .fh5co-section-title {
-  font-size: 11px;
+  font-size: 15px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #41454f;
-  font-family: "Roboto", sans-serif;
+  font-family: "Nanum OenSonJabiDoYeBbeo", sans-serif;
   font-weight: 700;
   opacity: .4;
   margin-bottom: 20px;

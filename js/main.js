@@ -161,14 +161,9 @@
 		
 		$("body").fadeIn(2000);
 		
-		// $("a.transition").click(function(event){
-		//   	event.preventDefault();
-		//   	var linkLocation = this.href;
-		//
-		//   	$("body").fadeOut(2000, redirectPage);
-		//
-		//   	redirectPage(linkLocation);
-		// });
+		 $("a.transition").click(function(event){
+		  	event.preventDefault();
+		});
 			
 	};
 

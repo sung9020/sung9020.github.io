@@ -202,7 +202,7 @@
 			} 
 
 		   $('#fh5co-home .flexslider .fh5co-overlay').css({
-				'opacity' : (.5)+(scrlTop/2000)
+				'opacity' : (.1)+(scrlTop/2000)
 		   });
 
 		   if ( $('body').hasClass('offcanvas-visible') ) {

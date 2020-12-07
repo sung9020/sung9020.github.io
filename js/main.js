@@ -161,7 +161,7 @@
 		
 		$("body").fadeIn(2000);
 		
-		 $("a.transition").click(function(event){
+		 $("#fh5co-portfolio a.transition").click(function(event){
 		  	event.preventDefault();
 		});
 			
@@ -356,5 +356,12 @@
 
 	});
 
+	$('#kakao-send').on('click', function(event){
+		event.preventDefault();
+		Kakao.Link.createCustomButton({
+			container: '#kakao-send',
+			templateId: 42119,
+		});
+	});
 
 }());

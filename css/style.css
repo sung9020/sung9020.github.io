@@ -486,7 +486,7 @@ p {
 #fh5co-contact,
 #fh5co-testimony,
 #fh5co-content {
-  padding: 7em 0;
+  padding: 1em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-portfolio,
@@ -494,8 +494,12 @@ p {
   #fh5co-contact,
   #fh5co-testimony,
   #fh5co-content {
-    padding: 4em 0;
+    padding: 1em 0;
   }
+}
+
+#fh5co-contact {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 #fh5co-content figure {
@@ -668,6 +672,7 @@ p {
   margin-bottom: 10px;
 }
 #fh5co-footer .fh5co-footer-widget {
+  margin-top: 10px;
   margin-bottom: 30px;
   float: left;
   width: 100%;
@@ -913,7 +918,7 @@ p {
 }
 
 .r-pb {
-  padding-bottom: 40px;
+  /*padding-bottom: 40px;*/
 }
 
 @media screen and (max-width: 480px) {

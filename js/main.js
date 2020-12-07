@@ -356,12 +356,9 @@
 
 	});
 
-	$('#kakao-send').on('click', function(event){
-		event.preventDefault();
-		Kakao.Link.createCustomButton({
-			container: '#kakao-send',
-			templateId: 42119,
-		});
+	Kakao.Link.createCustomButton({
+		container: '#kakao-send',
+		templateId: 42119,
 	});
 
 }());
